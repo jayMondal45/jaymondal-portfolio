@@ -1,4 +1,3 @@
-/* Enhanced CSS with premium design elements */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
 * {
@@ -10,6 +9,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 :root {
@@ -53,6 +53,8 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   transition: background 0.3s ease, color 0.3s ease;
+  width: 100%;
+  position: relative;
 }
 
 /* Custom Cursor */
@@ -91,7 +93,7 @@ body {
   opacity: 0.5;
 }
 
-/* Enhanced Background with Particles */
+/* Background with Particles */
 .bg-gradient {
   position: fixed;
   top: 0;
@@ -174,7 +176,7 @@ body {
   }
 }
 
-/* Enhanced Theme Toggle - Always Vertical */
+/* Theme Toggle */
 .theme-toggle {
   position: fixed;
   top: 50%;
@@ -199,6 +201,23 @@ body {
     right: 20px;
     transform: translateY(-50%);
     flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: auto;
+    bottom: 100px;
+    right: 20px;
+    transform: none;
+    flex-direction: row;
+    padding: 0.3rem;
+  }
+
+  .theme-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
   }
 }
 
@@ -234,7 +253,7 @@ body {
   color: var(--primary);
 }
 
-/* Enhanced Navigation with Glass Effect */
+/* Navigation with Glass Effect */
 nav {
   position: fixed;
   top: 0;
@@ -328,7 +347,7 @@ nav.scrolled {
   border-radius: 2px;
 }
 
-/* Enhanced Hero Section */
+/* Hero Section */
 .hero {
   margin-top: 50px;
   min-height: 100vh;
@@ -476,7 +495,7 @@ nav.scrolled {
   border-color: var(--primary);
 }
 
-/* Enhanced MacBook Window */
+/* MacBook Window */
 .hero-visual {
   position: relative;
   animation: fadeInUp 0.8s ease 0.6s backwards;
@@ -738,7 +757,7 @@ nav.scrolled {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-/* NEW: About Me Section */
+/* About Me Section */
 #about {
   padding: 8rem 5%;
   position: relative;
@@ -760,10 +779,19 @@ nav.scrolled {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
-.about-image img {
+.profile-image-container {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.profile-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 
@@ -785,35 +813,7 @@ nav.scrolled {
   line-height: 1.8;
 }
 
-.about-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-top: 3rem;
-}
-
-.stat-item {
-  text-align: center;
-}
-
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 0.5rem;
-}
-
-.stat-label {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-/* Enhanced Skills Section - 3 in a row */
+/* Skills Section - 3 in a row */
 #skills {
   padding: 8rem 5%;
   position: relative;
@@ -929,7 +929,7 @@ nav.scrolled {
   line-height: 1.6;
 }
 
-/* Enhanced Projects Section */
+/* Projects Section */
 #projects {
   padding: 8rem 5%;
   background: var(--bg-elevated);
@@ -1187,7 +1187,7 @@ nav.scrolled {
   opacity: 1;
 }
 
-/* Enhanced Contact Section */
+/* Contact Section */
 #contact {
   padding: 8rem 5%;
   background: var(--bg-elevated);
@@ -1594,11 +1594,13 @@ footer p {
   }
 
   .hero-buttons {
-    flex-wrap: nowrap !important;
+    flex-direction: column;
+    align-items: center;
   }
 
   .btn {
-    font-size: 0.7rem !important;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
   }
 
   section {
@@ -1619,11 +1621,161 @@ footer p {
     padding: 2rem;
   }
 
-  .about-stats {
-    grid-template-columns: repeat(2, 1fr);
+  .about-content h2 {
+    font-size: 2rem;
   }
 
   .testimonial-card {
     min-width: 280px;
   }
+
+  .profile-image-container {
+    height: 300px;
+  }
+
+  #contact {
+    padding: 4rem 1rem;
+  }
+
+  .contact-container {
+    gap: 1.5rem;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 1.5rem;
+    border-radius: 16px;
+  }
+
+  .contact-info h3,
+  .contact-form h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-links {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-link-item {
+    padding: 0.8rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
+  }
+
+  .contact-link-item:hover {
+    transform: translateY(-2px);
+  }
+
+  .contact-link-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .social-links-contact {
+    gap: 0.8rem;
+  }
+
+  .social-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-control {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  textarea.form-control {
+    min-height: 120px;
+  }
+
+  .submit-btn {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-info,
+  .contact-form {
+    padding: 1rem;
+  }
+
+  .contact-info h3,
+  .contact-form h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-link-item {
+    padding: 0.6rem;
+  }
+
+  .social-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .form-control {
+    padding: 0.7rem;
+  }
+}
+
+/* Fix for mobile scrolling */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .hero {
+    min-height: -webkit-fill-available;
+  }
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-card);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--primary), var(--secondary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(var(--secondary), var(--accent));
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
 }
