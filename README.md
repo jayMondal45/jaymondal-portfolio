@@ -1,9 +1,9 @@
 # 👨‍💻 Jay Mondal — Full Stack Developer & Automation Expert
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-jaymondal45.github.io-2E9EF7?style=for-the-badge)](https://jaymondal45.github.io)
+[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-jaymondal45.github.io%2Fjaymondal--portfolio-2E9EF7?style=for-the-badge)](https://jaymondal45.github.io/jaymondal-portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-@jayMondal45-000000?style=for-the-badge\&logo=github)](https://github.com/jayMondal45)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)](https://jaymondal45.github.io)
+[![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)](https://jaymondal45.github.io/jaymondal-portfolio/)
 
 ---
 
@@ -17,7 +17,9 @@ Built from scratch using **HTML**, **CSS**, and **JavaScript**, this site demons
 
 ## 🚀 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-0078D7?style=for-the-badge\&logo=githubpages)]([https://jaymondal45.github.io](https://jaymondal45.github.io/jaymondal-portfolio/))
+🌐 **Live Now:** [https://jaymondal45.github.io/jaymondal-portfolio/](https://jaymondal45.github.io/jaymondal-portfolio/)
+
+[![Live Demo](https://img.shields.io/badge/Visit_Site-jaymondal45.github.io%2Fjaymondal--portfolio-0078D7?style=for-the-badge\&logo=githubpages)](https://jaymondal45.github.io/jaymondal-portfolio/)
 
 ---
 
@@ -67,7 +69,7 @@ Built from scratch using **HTML**, **CSS**, and **JavaScript**, this site demons
 ## 🏗️ Project Structure
 
 ```
-portfolio-website/
+jaymondal-portfolio/
 │
 ├── index.html              # Main HTML file
 ├── css/
@@ -88,12 +90,12 @@ portfolio-website/
 1. Download or clone the repository:
 
    ```bash
-   git clone https://github.com/jayMondal45/portfolio-website.git
+   git clone https://github.com/jayMondal45/jaymondal-portfolio.git
    ```
 2. Navigate to the project folder:
 
    ```bash
-   cd portfolio-website
+   cd jaymondal-portfolio
    ```
 3. Open the `index.html` file directly in your browser.
 
@@ -114,8 +116,6 @@ http://localhost:8080
 ---
 
 ## 🧰 Customization Guide
-
-You can easily customize this portfolio:
 
 | Component           | File                               | Description                                |
 | ------------------- | ---------------------------------- | ------------------------------------------ |
@@ -208,4 +208,4 @@ This project is licensed under the [MIT License](LICENSE) — feel free to use a
 
 Made with ❤️ by **Jay Mondal**
 © 2025 — Full Stack Developer & Automation Expert
-[🌐 jaymondal45.github.io](https://jaymondal45.github.io)
+🌐 **Live Portfolio:** [jaymondal45.github.io/jaymondal-portfolio](https://jaymondal45.github.io/jaymondal-portfolio/)
