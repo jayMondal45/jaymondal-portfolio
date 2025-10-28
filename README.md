@@ -17,7 +17,7 @@ Built from scratch using **HTML**, **CSS**, and **JavaScript**, this site demons
 
 ## 🚀 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-0078D7?style=for-the-badge\&logo=githubpages)](https://jaymondal45.github.io)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-0078D7?style=for-the-badge\&logo=githubpages)]([https://jaymondal45.github.io](https://jaymondal45.github.io/jaymondal-portfolio/))
 
 ---
 
