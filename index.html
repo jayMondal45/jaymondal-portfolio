@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jay Mondal - Full Stack Developer & Automation Expert</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Custom Cursor -->
     <div class="cursor"></div>
     <div class="cursor-follower"></div>
@@ -17,648 +19,754 @@
     <div class="bg-gradient"></div>
     <div class="particles" id="particles"></div>
 
-    <!-- Theme Toggle - Always Vertical -->
+    <!-- Theme Toggle -->
     <div class="theme-toggle">
-        <button class="theme-btn active" data-theme="dark">
-            <i class="fas fa-moon"></i>
-        </button>
-        <button class="theme-btn" data-theme="light">
-            <i class="fas fa-sun"></i>
-        </button>
+      <button class="theme-btn active" data-theme="dark">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="theme-btn" data-theme="light">
+        <i class="fas fa-sun"></i>
+      </button>
     </div>
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop">
-        <i class="fas fa-arrow-up"></i>
+      <i class="fas fa-arrow-up"></i>
     </button>
 
     <nav>
-        <div class="nav-container">
-            <a href="#" class="logo">JAY</a>
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+      <div class="nav-container">
+        <a href="#" class="logo">JAY</a>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+      </div>
     </nav>
 
     <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-label">
-                    <span class="dot"></span>
-                    Available for freelance
-                </div>
-                <h1>
-                    Full Stack Developer<br />
-                    <span class="gradient-text">& Automation Expert</span>
-                </h1>
-                <p>
-                    I craft elegant digital experiences through code. Specializing in
-                    Python automation, web development, and building solutions that make
-                    a real impact.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        View My Work
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        Get In Touch
-                        <i class="fas fa-paper-plane"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="app-icon" id="appIcon">
-                    <i class="fas fa-code"></i>
-                </div>
-                <div class="minimized-app-icon" id="minimizedAppIcon">
-                    <i class="fas fa-code"></i>
-                    <div class="white-dot"></div>
-                </div>
-                <div class="macbook-window" id="macbookWindow">
-                    <div class="window-header">
-                        <div class="window-controls">
-                            <div class="window-dot dot-red" id="closeWindow">
-                                <i class="fas fa-times"></i>
-                            </div>
-                            <div class="window-dot dot-yellow" id="minimizeWindow">
-                                <i class="fas fa-minus"></i>
-                            </div>
-                            <div class="window-dot dot-green" id="maximizeWindow">
-                                <i class="fas fa-expand"></i>
-                            </div>
-                        </div>
-                        <div class="window-title">jaymondal.py</div>
-                        <div class="window-actions">
-                            <button class="window-action" id="refreshWindow">
-                                <i class="fas fa-redo"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="window-content">
-                        <div class="floating-elements">
-                            <i class="floating-icon fas fa-code"></i>
-                            <i class="floating-icon fas fa-laptop-code"></i>
-                            <i class="floating-icon fab fa-python"></i>
-                            <i class="floating-icon fas fa-robot"></i>
-                        </div>
-                        <div class="code-window">
-                            <div class="code-content">
-                                <div class="code-line">
-                                    <span class="line-number">1</span>
-                                    <span><span class="code-keyword">class</span> <span
-                                            class="code-function">JayMondal</span>:</span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">2</span>
-                                    <span>&nbsp;&nbsp;<span class="code-keyword">def</span> <span
-                                            class="code-function">__init__</span>(self):</span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">3</span>
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;self.languages = [<span
-                                            class="code-string">"Python"</span>, <span
-                                            class="code-string">"JavaScript"</span>, <span
-                                            class="code-string">"HTML5"</span>, <span
-                                            class="code-string">"CSS3"</span>]</span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">4</span>
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;self.frameworks = [<span
-                                            class="code-string">"Tkinter"</span>, <span
-                                            class="code-string">"Flask"</span>, <span
-                                            class="code-string">"Bootstrap"</span>]</span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">5</span>
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;self.specialties = [<span class="code-string">"Web
-                                            Automation"</span>, <span class="code-string">"GUI Development"</span>,
-                                        <span class="code-string">"Web Scraping"</span>, <span class="code-string">"API
-                                            Integration"</span>, <span class="code-string">"Email
-                                            Automation"</span>]</span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">6</span>
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;self.currently_learning = <span
-                                            class="code-string">"Advanced Python & Modern Web Frameworks"</span></span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">7</span>
-                                    <span>&nbsp;&nbsp;<span class="code-keyword">def</span> <span
-                                            class="code-function">say_hi</span>(self):</span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">8</span>
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">print</span>(<span
-                                            class="code-string">"Thanks for dropping by! Let's build something
-                                            amazing!"</span>)</span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">9</span>
-                                    <span>me = <span class="code-function">JayMondal</span>()</span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">10</span>
-                                    <span>me.<span class="code-function">say_hi</span>()</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-label">
+            <span class="dot"></span>
+            Available for freelance
+          </div>
+          <h1>
+            Full Stack Developer<br />
+            <span class="gradient-text">& Automation Expert</span>
+          </h1>
+          <p>
+            I craft elegant digital experiences through code. Specializing in
+            Python automation, web development, and building solutions that make
+            a real impact.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Get In Touch
+              <i class="fas fa-paper-plane"></i>
+            </a>
+          </div>
         </div>
+        <div class="hero-visual">
+          <div class="app-icon" id="appIcon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="minimized-app-icon" id="minimizedAppIcon">
+            <i class="fas fa-code"></i>
+            <div class="white-dot"></div>
+          </div>
+          <div class="macbook-window" id="macbookWindow">
+            <div class="window-header">
+              <div class="window-controls">
+                <div class="window-dot dot-red" id="closeWindow">
+                  <i class="fas fa-times"></i>
+                </div>
+                <div class="window-dot dot-yellow" id="minimizeWindow">
+                  <i class="fas fa-minus"></i>
+                </div>
+                <div class="window-dot dot-green" id="maximizeWindow">
+                  <i class="fas fa-expand"></i>
+                </div>
+              </div>
+              <div class="window-title">jaymondal.py</div>
+              <div class="window-actions">
+                <button class="window-action" id="refreshWindow">
+                  <i class="fas fa-redo"></i>
+                </button>
+              </div>
+            </div>
+            <div class="window-content">
+              <div class="floating-elements">
+                <i class="floating-icon fas fa-code"></i>
+                <i class="floating-icon fas fa-laptop-code"></i>
+                <i class="floating-icon fab fa-python"></i>
+                <i class="floating-icon fas fa-robot"></i>
+              </div>
+              <div class="code-window">
+                <div class="code-content">
+                  <div class="code-line">
+                    <span class="line-number">1</span>
+                    <span
+                      ><span class="code-keyword">class</span>
+                      <span class="code-function">JayMondal</span>:</span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-number">2</span>
+                    <span
+                      >&nbsp;&nbsp;<span class="code-keyword">def</span>
+                      <span class="code-function">__init__</span>(self):</span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-number">3</span>
+                    <span
+                      >&nbsp;&nbsp;&nbsp;&nbsp;self.languages = [<span
+                        class="code-string"
+                        >"Python"</span
+                      >, <span class="code-string">"JavaScript"</span>,
+                      <span class="code-string">"HTML5"</span>,
+                      <span class="code-string">"CSS3"</span>]</span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-number">4</span>
+                    <span
+                      >&nbsp;&nbsp;&nbsp;&nbsp;self.frameworks = [<span
+                        class="code-string"
+                        >"Tkinter"</span
+                      >, <span class="code-string">"Flask"</span>,
+                      <span class="code-string">"Bootstrap"</span>]</span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-number">5</span>
+                    <span
+                      >&nbsp;&nbsp;&nbsp;&nbsp;self.specialties = [<span
+                        class="code-string"
+                        >"Web Automation"</span
+                      >, <span class="code-string">"GUI Development"</span>,
+                      <span class="code-string">"Web Scraping"</span>,
+                      <span class="code-string">"API Integration"</span>,
+                      <span class="code-string">"Email Automation"</span>]</span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-number">6</span>
+                    <span
+                      >&nbsp;&nbsp;&nbsp;&nbsp;self.currently_learning =
+                      <span class="code-string"
+                        >"Advanced Python & Modern Web Frameworks"</span
+                      ></span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-number">7</span>
+                    <span
+                      >&nbsp;&nbsp;<span class="code-keyword">def</span>
+                      <span class="code-function">say_hi</span>(self):</span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-number">8</span>
+                    <span
+                      >&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword"
+                        >print</span
+                      >(<span class="code-string"
+                        >"Thanks for dropping by! Let's build something
+                        amazing!"</span
+                      >)</span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-number">9</span>
+                    <span
+                      >me = <span class="code-function">JayMondal</span>()</span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-number">10</span>
+                    <span>me.<span class="code-function">say_hi</span>()</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- About Me Section -->
     <section id="about">
-        <div class="section-header">
-            <div class="section-label">About Me</div>
-            <h2>My Journey & Passion</h2>
-            <p>
-                A dedicated developer with a passion for creating efficient, elegant solutions to complex problems
-            </p>
+      <div class="section-header">
+        <div class="section-label">About Me</div>
+        <h2>My Journey & Passion</h2>
+        <p>
+          A dedicated developer with a passion for creating efficient, elegant
+          solutions to complex problems
+        </p>
+      </div>
+      <div class="about-container">
+        <div class="about-image">
+          <div class="profile-image-container">
+            <img src="img/me.png" alt="Jay Mondal" />
+          </div>
         </div>
-        <div class="about-container">
-            <div class="about-image">
-                <!-- Placeholder for profile photo - you can replace with your actual photo -->
-                <div
-                    style="width:100%; height:500px; background:linear-gradient(135deg, var(--primary), var(--secondary)); display:flex; align-items:center; justify-content:center; color:white; font-size:1.5rem;">
-                    <img src="img/me.png">
-                </div>
-            </div>
-            <div class="about-content">
-                <h2>Hi, I'm Jay Mondal</h2>
-                <p>
-                    I'm a passionate Full Stack Developer and Automation Expert with a strong focus on creating
-                    efficient,
-                    scalable solutions. With expertise in Python, web development, and automation technologies, I
-                    specialize
-                    in building applications that solve real-world problems.
-                </p>
-                <p>
-                    My journey in technology began with a curiosity about how things work, which evolved into a passion
-                    for
-                    creating digital solutions. I believe in writing clean, maintainable code and continuously learning
-                    new
-                    technologies to stay at the forefront of development trends.
-                </p>
-                <p>
-                    When I'm not coding, you can find me exploring new technologies, contributing to open-source
-                    projects,
-                    or sharing knowledge with the developer community.
-                </p>
-            </div>
+        <div class="about-content">
+          <h2>Hi, I'm Jay Mondal</h2>
+          <p>
+            I'm a passionate Full Stack Developer and Automation Expert with a
+            strong focus on creating efficient, scalable solutions. With
+            expertise in Python, web development, and automation technologies, I
+            specialize in building applications that solve real-world problems.
+          </p>
+          <p>
+            My journey in technology began with a curiosity about how things
+            work, which evolved into a passion for creating digital solutions. I
+            believe in writing clean, maintainable code and continuously
+            learning new technologies to stay at the forefront of development
+            trends.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new technologies,
+            contributing to open-source projects, or sharing knowledge with the
+            developer community.
+          </p>
         </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills">
-        <div class="section-header">
-            <div class="section-label">Expertise</div>
-            <h2>Skills & Technologies</h2>
-            <p>
-                A versatile skill set that allows me to tackle diverse challenges and
-                deliver exceptional results
-            </p>
+      <div class="section-header">
+        <div class="section-label">Expertise</div>
+        <h2>Skills & Technologies</h2>
+        <p>
+          A versatile skill set that allows me to tackle diverse challenges and
+          deliver exceptional results
+        </p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-python"></i>
+          </div>
+          <h3>Python</h3>
+          <p>
+            Automation, GUI Development, APIs, and Scripting with extensive
+            experience in building efficient solutions.
+          </p>
         </div>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="skill-icon">
-                    <i class="fab fa-python"></i>
-                </div>
-                <h3>Python</h3>
-                <p>
-                    Automation, GUI Development, APIs, and Scripting with extensive
-                    experience in building efficient solutions.
-                </p>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">
-                    <i class="fas fa-code"></i>
-                </div>
-                <h3>Web Development</h3>
-                <p>
-                    HTML, CSS, JavaScript, and modern frameworks to create responsive
-                    and interactive web applications.
-                </p>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">
-                    <i class="fas fa-robot"></i>
-                </div>
-                <h3>Selenium</h3>
-                <p>
-                    Web automation and testing with advanced browser control and data
-                    extraction capabilities.
-                </p>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">
-                    <i class="fas fa-desktop"></i>
-                </div>
-                <h3>Tkinter</h3>
-                <p>
-                    GUI application development with Python, creating user-friendly
-                    desktop applications.
-                </p>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">
-                    <i class="fas fa-envelope"></i>
-                </div>
-                <h3>SMTP</h3>
-                <p>
-                    Email automation systems with personalized templates and scheduling
-                    capabilities.
-                </p>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">
-                    <i class="fas fa-code-branch"></i>
-                </div>
-                <h3>Git</h3>
-                <p>
-                    Version control and collaborative development workflows with best
-                    practices.
-                </p>
-            </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            HTML, CSS, JavaScript, and modern frameworks to create responsive
+            and interactive web applications.
+          </p>
         </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>Selenium</h3>
+          <p>
+            Web automation and testing with advanced browser control and data
+            extraction capabilities.
+          </p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <h3>Tkinter</h3>
+          <p>
+            GUI application development with Python, creating user-friendly
+            desktop applications.
+          </p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>SMTP</h3>
+          <p>
+            Email automation systems with personalized templates and scheduling
+            capabilities.
+          </p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-code-branch"></i>
+          </div>
+          <h3>Git</h3>
+          <p>
+            Version control and collaborative development workflows with best
+            practices.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-        <div class="section-header">
-            <span class="section-label">Portfolio</span>
-            <h2>Featured Projects</h2>
+      <div class="section-header">
+        <span class="section-label">Portfolio</span>
+        <h2>Featured Projects</h2>
+        <p>
+          A showcase of my recent work that demonstrates my passion for creating
+          impactful solutions
+        </p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-satellite"></i>
+            <span class="project-tag">Featured</span>
+          </div>
+          <div class="project-content">
+            <h3>ISS Tracker CLI</h3>
             <p>
-                A showcase of my recent work that demonstrates my passion for creating
-                impactful solutions
+              Real-time International Space Station tracking application with
+              intelligent email notifications for night visibility.
             </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">APIs</span>
+              <span class="tech-tag">SMTP</span>
+            </div>
+            <a
+              href="https://jaymondal45.github.io/iss-tracker-cli/"
+              target="_blank"
+              class="project-link"
+            >
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-image">
-                    <i class="fas fa-satellite"></i>
-                    <span class="project-tag">Featured</span>
-                </div>
-                <div class="project-content">
-                    <h3>ISS Tracker CLI</h3>
-                    <p>
-                        Real-time International Space Station tracking application with
-                        intelligent email notifications for night visibility.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">APIs</span>
-                        <span class="tech-tag">SMTP</span>
-                    </div>
-                    <a href="https://jaymondal45.github.io/iss-tracker-cli/" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
 
-            <div class="project-card">
-                <div class="project-image" style="background: linear-gradient(135deg, #ec4899, #8b5cf6)">
-                    <i class="fas fa-birthday-cake"></i>
-                    <span class="project-tag">Automation</span>
-                </div>
-                <div class="project-content">
-                    <h3>Birthday Mailer</h3>
-                    <p>
-                        Smart automation tool that sends personalized birthday wishes with
-                        customizable templates and CSV integration.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Gmail SMTP</span>
-                        <span class="tech-tag">CSV</span>
-                    </div>
-                    <a href="https://jaymondal45.github.io/birthday-mailer/" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="background: linear-gradient(135deg, #ec4899, #8b5cf6)"
+          >
+            <i class="fas fa-birthday-cake"></i>
+            <span class="project-tag">Automation</span>
+          </div>
+          <div class="project-content">
+            <h3>Birthday Mailer</h3>
+            <p>
+              Smart automation tool that sends personalized birthday wishes with
+              customizable templates and CSV integration.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Gmail SMTP</span>
+              <span class="tech-tag">CSV</span>
             </div>
-
-            <div class="project-card">
-                <div class="project-image" style="background: linear-gradient(135deg, #10b981, #3b82f6)">
-                    <i class="fas fa-shield-alt"></i>
-                    <span class="project-tag">Security</span>
-                </div>
-                <div class="project-content">
-                    <h3>Password Vault GUI</h3>
-                    <p>
-                        Secure password manager with generation, local storage, search
-                        functionality, and clipboard integration.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Tkinter</span>
-                        <span class="tech-tag">JSON</span>
-                    </div>
-                    <a href="https://github.com/jayMondal45/Password-Vault-GUI/" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image" style="background: linear-gradient(135deg, #ec4899, #8b5cf6)">
-                    <i class="fas fa-robot"></i>
-                    <span class="project-tag">Automation</span>
-                </div>
-                <div class="project-content">
-                    <h3>Dating Bot Automation</h3>
-                    <p>
-                        Automated bot for dating platforms with smart interaction features,
-                        profile management, and intelligent conversation handling.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Selenium</span>
-                        <span class="tech-tag">Automation</span>
-                    </div>
-                    <a href="https://jaymondal45.github.io/dating-bot-automation/" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image" style="background: linear-gradient(135deg, #06b6d4, #8b5cf6)">
-                    <i class="fas fa-wifi"></i>
-                    <span class="project-tag">Automation</span>
-                </div>
-                <div class="project-content">
-                    <h3>Internet Speed Bot</h3>
-                    <p>
-                        Automated monitoring tool that tests internet speed and files
-                        complaints for underperforming connections.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Selenium</span>
-                        <span class="tech-tag">Automation</span>
-                    </div>
-                    <a href="https://jaymondal45.github.io/internet-speed-complaint-bot/" target="_blank"
-                        class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image" style="background: linear-gradient(135deg, #14b8a6, #06b6d4)">
-                    <i class="fas fa-globe-americas"></i>
-                    <span class="project-tag">Web App</span>
-                </div>
-                <div class="project-content">
-                    <h3>EarthWatch</h3>
-                    <p>
-                        Live weather tracking and earthquake prediction platform with
-                        beautiful data visualizations.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">APIs</span>
-                        <span class="tech-tag">HTML/CSS</span>
-                    </div>
-                    <a href="https://jaymondal45.github.io/EarthWatch/" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
+            <a
+              href="https://jaymondal45.github.io/birthday-mailer/"
+              target="_blank"
+              class="project-link"
+            >
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
+
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="background: linear-gradient(135deg, #10b981, #3b82f6)"
+          >
+            <i class="fas fa-shield-alt"></i>
+            <span class="project-tag">Security</span>
+          </div>
+          <div class="project-content">
+            <h3>Password Vault GUI</h3>
+            <p>
+              Secure password manager with generation, local storage, search
+              functionality, and clipboard integration.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Tkinter</span>
+              <span class="tech-tag">JSON</span>
+            </div>
+            <a
+              href="https://github.com/jayMondal45/Password-Vault-GUI/"
+              target="_blank"
+              class="project-link"
+            >
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="background: linear-gradient(135deg, #ec4899, #8b5cf6)"
+          >
+            <i class="fas fa-robot"></i>
+            <span class="project-tag">Automation</span>
+          </div>
+          <div class="project-content">
+            <h3>Dating Bot Automation</h3>
+            <p>
+              Automated bot for dating platforms with smart interaction
+              features, profile management, and intelligent conversation
+              handling.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Selenium</span>
+              <span class="tech-tag">Automation</span>
+            </div>
+            <a
+              href="https://jaymondal45.github.io/dating-bot-automation/"
+              target="_blank"
+              class="project-link"
+            >
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="background: linear-gradient(135deg, #06b6d4, #8b5cf6)"
+          >
+            <i class="fas fa-wifi"></i>
+            <span class="project-tag">Automation</span>
+          </div>
+          <div class="project-content">
+            <h3>Internet Speed Bot</h3>
+            <p>
+              Automated monitoring tool that tests internet speed and files
+              complaints for underperforming connections.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Selenium</span>
+              <span class="tech-tag">Automation</span>
+            </div>
+            <a
+              href="https://jaymondal45.github.io/internet-speed-complaint-bot/"
+              target="_blank"
+              class="project-link"
+            >
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div
+            class="project-image"
+            style="background: linear-gradient(135deg, #14b8a6, #06b6d4)"
+          >
+            <i class="fas fa-globe-americas"></i>
+            <span class="project-tag">Web App</span>
+          </div>
+          <div class="project-content">
+            <h3>EarthWatch</h3>
+            <p>
+              Live weather tracking and earthquake prediction platform with
+              beautiful data visualizations.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">APIs</span>
+              <span class="tech-tag">HTML/CSS</span>
+            </div>
+            <a
+              href="https://jaymondal45.github.io/EarthWatch/"
+              target="_blank"
+              class="project-link"
+            >
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials Section - Scrollable with Images -->
     <section id="testimonials">
-        <div class="section-header">
-            <div class="section-label">Testimonials</div>
-            <h2>What Clients Say</h2>
-            <p>
-                Feedback from clients and colleagues I've worked with on various projects
-            </p>
-        </div>
-        <div class="testimonials-container">
-            <div class="testimonials-scroll" id="testimonialsScroll">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>
-                            Jay delivered an exceptional automation solution that saved our team hours of manual work
-                            each week. His attention to detail and problem-solving skills are outstanding.
-                        </p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80"
-                                alt="Sarah Chen">
-                        </div>
-                        <div class="author-info">
-                            <h4>Sarah Chen</h4>
-                            <p>Project Manager, TechCorp</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>
-                            Working with Jay was a great experience. He understood our requirements perfectly and
-                            delivered
-                            a robust web application ahead of schedule. Highly recommended!
-                        </p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80"
-                                alt="Michael Rodriguez">
-                        </div>
-                        <div class="author-info">
-                            <h4>Michael Rodriguez</h4>
-                            <p>CEO, StartupXYZ</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>
-                            Jay's expertise in Python automation transformed our business processes.
-                            He's not just a developer but a true problem-solver who understands business needs.
-                        </p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80"
-                                alt="Amanda Johnson">
-                        </div>
-                        <div class="author-info">
-                            <h4>Amanda Johnson</h4>
-                            <p>Operations Director, DataFlow Inc.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>
-                            The automation system Jay built for us has increased our efficiency by 40%.
-                            His ability to understand complex requirements and deliver elegant solutions is impressive.
-                        </p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80"
-                                alt="David Kim">
-                        </div>
-                        <div class="author-info">
-                            <h4>David Kim</h4>
-                            <p>CTO, InnovateTech</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="section-header">
+        <div class="section-label">Testimonials</div>
+        <h2>What Clients Say</h2>
+        <p>
+          Feedback from clients and colleagues I've worked with on various
+          projects
+        </p>
+      </div>
+      <div class="testimonials-container">
+        <div class="testimonials-scroll" id="testimonialsScroll">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                Jay delivered an exceptional automation solution that saved our
+                team hours of manual work each week. His attention to detail and
+                problem-solving skills are outstanding.
+              </p>
             </div>
-            <div class="testimonial-nav" id="testimonialNav">
-                <button class="testimonial-nav-btn active" data-index="0"></button>
-                <button class="testimonial-nav-btn" data-index="1"></button>
-                <button class="testimonial-nav-btn" data-index="2"></button>
-                <button class="testimonial-nav-btn" data-index="3"></button>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img
+                  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdemo.sparklewpthemes.com%2Fbuzzstorepro%2Feshopjet%2Fteam%2Fjohn-deo%2F&psig=AOvVaw037RdY8SefAtW_SnHB214D&ust=1761728618973000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCM6tjExpADFQAAAAAdAAAAABAE"
+                  alt="Sarah Chen"
+                />
+              </div>
+              <div class="author-info">
+                <h4>Sarah Chen</h4>
+                <p>Project Manager, TechCorp</p>
+              </div>
             </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                Working with Jay was a great experience. He understood our
+                requirements perfectly and delivered a robust web application
+                ahead of schedule. Highly recommended!
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80"
+                  alt="Michael Rodriguez"
+                />
+              </div>
+              <div class="author-info">
+                <h4>Michael Rodriguez</h4>
+                <p>CEO, StartupXYZ</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                Jay's expertise in Python automation transformed our business
+                processes. He's not just a developer but a true problem-solver
+                who understands business needs.
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img
+                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80"
+                  alt="Amanda Johnson"
+                />
+              </div>
+              <div class="author-info">
+                <h4>Amanda Johnson</h4>
+                <p>Operations Director, DataFlow Inc.</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                The automation system Jay built for us has increased our
+                efficiency by 40%. His ability to understand complex
+                requirements and deliver elegant solutions is impressive.
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80"
+                  alt="David Kim"
+                />
+              </div>
+              <div class="author-info">
+                <h4>David Kim</h4>
+                <p>CTO, InnovateTech</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="testimonial-nav" id="testimonialNav">
+          <button class="testimonial-nav-btn active" data-index="0"></button>
+          <button class="testimonial-nav-btn" data-index="1"></button>
+          <button class="testimonial-nav-btn" data-index="2"></button>
+          <button class="testimonial-nav-btn" data-index="3"></button>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="section-header">
-            <div class="section-label">Get In Touch</div>
-            <h2>Let's Connect</h2>
-            <p>
-                I'm always open to interesting conversations, collaboration
-                opportunities, and connecting with fellow developers!
-            </p>
+      <div class="section-header">
+        <div class="section-label">Get In Touch</div>
+        <h2>Let's Connect</h2>
+        <p>
+          I'm always open to interesting conversations, collaboration
+          opportunities, and connecting with fellow developers!
+        </p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>
+            Feel free to reach out through any of these channels. I typically
+            respond within 24 hours.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:jaymondas953@gmail.com" class="contact-link-item">
+              <div class="contact-link-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-link-content">
+                <h4>Email</h4>
+                <span>jaymondas953@gmail.com</span>
+              </div>
+            </a>
+
+            <a
+              href="https://github.com/jayMondal45"
+              target="_blank"
+              class="contact-link-item"
+            >
+              <div class="contact-link-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-link-content">
+                <h4>GitHub</h4>
+                <span>@jayMondal45</span>
+              </div>
+            </a>
+            <a
+              href="https://wa.me/+917001583266"
+              target="_blank"
+              class="contact-link-item"
+            >
+              <div class="contact-link-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="contact-link-content">
+                <h4>WhatsApp</h4>
+                <span>Chat with me</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="social-links-contact">
+            <a
+              href="https://github.com/jayMondal45"
+              target="_blank"
+              class="social-btn"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:jaymondas953@gmail.com" class="social-btn">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/+917001583266" class="social-btn">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="social-btn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="social-btn">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/jay_mondal_45/"
+              class="social-btn"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
         </div>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>Contact Information</h3>
-                <p>
-                    Feel free to reach out through any of these channels. I typically
-                    respond within 24 hours.
-                </p>
 
-                <div class="contact-links">
-                    <a href="mailto:jaymondas953@gmail.com" class="contact-link-item">
-                        <div class="contact-link-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-link-content">
-                            <h4>Email</h4>
-                            <span>jaymondas953@gmail.com</span>
-                        </div>
-                    </a>
-
-                    <a href="https://github.com/jayMondal45" target="_blank" class="contact-link-item">
-                        <div class="contact-link-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="contact-link-content">
-                            <h4>GitHub</h4>
-                            <span>@jayMondal45</span>
-                        </div>
-                    </a>
-                    <a href="https://wa.me/+917001583266" target="_blank" class="contact-link-item">
-                        <div class="contact-link-icon">
-                            <i class="fab fa-whatsapp"></i>
-                        </div>
-                        <div class="contact-link-content">
-                            <h4>WhatsApp</h4>
-                            <span>Chat with me</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="social-links-contact">
-                    <a href="https://github.com/jayMondal45" target="_blank" class="social-btn">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="mailto:jaymondas953@gmail.com" class="social-btn">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="https://wa.me/+917001583266" class="social-btn">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <a href="#" class="social-btn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#" class="social-btn">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://www.instagram.com/jay_mondal_45/" class="social-btn">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
+        <div class="contact-form">
+          <h3>Send Me a Message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+              />
             </div>
 
-            <div class="contact-form">
-                <h3>Send Me a Message</h3>
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" class="form-control" placeholder="Enter your name" required />
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" class="form-control" placeholder="Enter your email" required />
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" class="form-control"
-                            placeholder="Tell me about your project or inquiry..." required></textarea>
-                    </div>
-
-                    <button type="submit" class="submit-btn">
-                        Send Message
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
-                </form>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+              />
             </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                class="form-control"
+                placeholder="Tell me about your project or inquiry..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              Send Message
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
         </div>
+      </div>
     </section>
 
     <footer>
-        <p>
-            &copy; 2025 Jay Mondal | Digital Superhero 🦸 | Built with ❤️ and lots
-            of ☕
-        </p>
+      <p>
+        &copy; 2025 Jay Mondal | Digital Superhero 🦸 | Built with ❤️ and lots
+        of ☕
+      </p>
     </footer>
 
     <!-- Sweet Alert -->
     <div class="sweet-alert-overlay" id="sweetAlert">
-        <div class="sweet-alert">
-            <div class="sweet-alert-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <h3>Message Sent!</h3>
-            <p>
-                Thank you for reaching out. I'll get back to you as soon as possible.
-            </p>
-            <button class="sweet-alert-btn" id="sweetAlertBtn">
-                Continue
-                <i class="fas fa-arrow-right"></i>
-            </button>
+      <div class="sweet-alert">
+        <div class="sweet-alert-icon">
+          <i class="fas fa-check"></i>
         </div>
+        <h3>Message Sent!</h3>
+        <p>
+          Thank you for reaching out. I'll get back to you as soon as possible.
+        </p>
+        <button class="sweet-alert-btn" id="sweetAlertBtn">
+          Continue
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
     </div>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
